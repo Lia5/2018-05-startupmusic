@@ -72,29 +72,31 @@ footer a:hover {
   
  
   .icon-animation { 
-    background: red;
-    -webkit-animation: ❤ 6.66s infinite linear;
-    animation: ❤ 6.66s infinite linear; 
+    background: url(../img/fill.jpg) repeat;
+    -webkit-animation: color 6.66s infinite linear;
+    animation: color 6.66s infinite linear; 
   }
   
-  @-webkit-keyframes ❤ {
-    0% { background-color: #db0170; }
-    16% { background-color: #c20f70; }
-    32% { background-color: #5c2571; }
-    48% { background-color: #2757a4; }
-    60% { background-color: #3097c4; }
-    72% { background-color: #179fa1; }
-    84% { background-color: #1e9638; }
+  @-webkit-keyframes color {
+    0% {background-position-x: 0;}
+    16% {     background-position-x: 50%;}
+    32% {     background-position-x: 150%; }
+    48% {     background-position-x: 220%;}
+    60% {     background-position-x: 260%;}
+    72% {     background-position-x: 300%; }
+    84% {     background-position-x: 340%;}
+    100% {     background-position-x: 380%;}
   }
   
-  @keyframes ❤ {
-    0% { background-color: #db0170; }
-    16% { background-color: #c20f70; }
-    32% { background-color: #5c2571; }
-    48% { background-color: #2757a4; }
-    60% { background-color: #3097c4; }
-    72% { background-color: #179fa1; }
-    84% { background-color: #1e9638; }
+  @keyframes color {
+    0% {background-position-x: 0;}
+    16% {     background-position-x: 50%;}
+    32% {     background-position-x: 150%; }
+    48% {     background-position-x: 220%;}
+    60% {     background-position-x: 260%;}
+    72% {     background-position-x: 300%; }
+    84% {     background-position-x: 340%;}
+    100% {     background-position-x: 380%;}
   }
   
   
