@@ -91,13 +91,13 @@ footer a:hover {
   
   @keyframes color {
     0% {background-position-x: 0;}
-    16% {     background-position-x: 50%;}
+    16% {     background-position-x: 40%;}
     32% {     background-position-x: 150%; }
     48% {     background-position-x: 220%;}
     60% {     background-position-x: 260%;}
     72% {     background-position-x: 300%; }
     84% {     background-position-x: 340%;}
-    100% {     background-position-x: 380%;}
+    100% {     background-position-x: 390%;}
   }
   
   
