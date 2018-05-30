@@ -29,9 +29,13 @@ p {
   padding: 0 20px;
   text-align: center;
 }
+.title {
+  font-size: 70px;
+  line-height: 0.4;
+}
 .subtitle {
   font-size: 20px;
-  margin-top: 56px;;
+  margin-top: 56px;
 }
 footer {
   position: absolute;
@@ -48,3 +52,49 @@ footer a:hover {
 .logo svg {
   width: 100%;
 }
+
+#item {
+  background: url(../img/fill.jpg) no-repeat;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  }
+
+
+  .icon {
+    width: 349px;
+    height: 136px;
+    display: inline-block;
+    -webkit-mask: url(../img/mask.svg) no-repeat 50% 50%;
+    mask: url(../img/mask.svg) no-repeat 50% 50%;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+  }
+  
+ 
+  .icon-animation { 
+    background: red;
+    -webkit-animation: ❤ 6.66s infinite linear;
+    animation: ❤ 6.66s infinite linear; 
+  }
+  
+  @-webkit-keyframes ❤ {
+    0% { background-color: #db0170; }
+    16% { background-color: #c20f70; }
+    32% { background-color: #5c2571; }
+    48% { background-color: #2757a4; }
+    60% { background-color: #3097c4; }
+    72% { background-color: #179fa1; }
+    84% { background-color: #1e9638; }
+  }
+  
+  @keyframes ❤ {
+    0% { background-color: #db0170; }
+    16% { background-color: #c20f70; }
+    32% { background-color: #5c2571; }
+    48% { background-color: #2757a4; }
+    60% { background-color: #3097c4; }
+    72% { background-color: #179fa1; }
+    84% { background-color: #1e9638; }
+  }
+  
+  
