@@ -75,6 +75,7 @@ footer a:hover {
     background: url(../img/fill.jpg) repeat;
     -webkit-animation: color 6.66s infinite linear;
     animation: color 6.66s infinite linear; 
+    animation-direction: reverse;
   }
   
   @-webkit-keyframes color {
