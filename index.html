@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9">
   <link rel="stylesheet" type="text/css" href="css/normalize.css" />
   <link rel="stylesheet" type="text/css" href="css/style.css" />
   <title>StartUp Music</title>
@@ -13,6 +13,17 @@
     <header>
       <div class="wrap">
         <div class="icon icon-animation"></div>
+        <!--[if IE]>
+          <style type="text/css">
+            .icon-animation {
+              background: url(img/logoIE.png) no-repeat;
+              background-size: contain;
+              height:98px;
+              margin-top: 20%;
+            }
+            
+            </style>
+      <![endif]-->
         <div class="title">StartUp Music</div>
         <div class="subtitle">
           <p>Under Construction</p>
